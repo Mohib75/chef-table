@@ -38,7 +38,7 @@ const Recipes = () => {
 
 	return (
 		<>
-			<div className='flex flex-col mt-20 mx-4 sm:mx-0'>
+			<div className='flex flex-col my-20 mx-4 sm:mx-0'>
 				<h3 className='text-2xl sm:text-4xl text-black font-semibold leading-[50px] text-center'>Our Recipes</h3>
 				<p className='leading-6 text-[#150B2B99] text-center self-center max-w-[820px] my-8'>
 					Here are some famous recipes of ours. These recipes are famous all over the world. You can see them all. They are given below.

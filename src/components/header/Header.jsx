@@ -8,8 +8,12 @@ const Header = () => {
 				Here you can learn every recipes from the world. We are so much eager to teach you guys how to cook any recipes.
 			</p>
 			<div className='flex flex-col sm:flex-row gap-12 items-center'>
-				<button className='btn bg-[#0BE58A] rounded-[50px] text-black border-none'>Explore Now</button>
-				<button className='btn bg-transparent border-[1px] border-solid border-white text-white rounded-[50px]'>Our Feedback</button>
+				<button className='btn bg-transparent border-[1px] border-solid border-white text-white rounded-[50px] hover:bg-[#0BE58A] hover:text-black hover:border-[#0BE58A] transition-all duration-500'>
+					Explore Now
+				</button>
+				<button className='btn bg-transparent border-[1px] border-solid border-white text-white rounded-[50px] hover:bg-[#0BE58A] hover:text-black hover:border-[#0BE58A] transition-all duration-500'>
+					Our Feedback
+				</button>
 			</div>
 		</div>
 	)

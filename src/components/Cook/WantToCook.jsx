@@ -26,7 +26,7 @@ const WantToCook = ({ wantToCook, handleDelete }) => {
 							<td className='sm:px-6 py-4'>
 								<button
 									onClick={() => handleDelete(item.recipe_id)}
-									className='btn text-[10px] sm:text-base sm:w-[115px] rounded-[50px] bg-[#0BE58A] text-black font-medium leading-5'>
+									className='btn text-[10px] sm:text-base sm:w-[115px] rounded-[50px] bg-[#0BE58A] text-black font-medium leading-5 hover:bg-[#0BE58A] hover:scale-110 hover:transform transition-all duration-500'>
 									Preparing
 								</button>
 							</td>
