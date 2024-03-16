@@ -10,7 +10,9 @@ const CurrentlyCooking = ({ currentlyCooking }) => {
 
 	return (
 		<div className='flex flex-col mt-8'>
-			<h4 className='text-center self-center font-semibold leading-7 text-black'>Currently Cooking: {currentlyCooking.length}</h4>
+			<h4 className='text-center self-center text-lg sm:text-2xl font-semibold leading-7 text-black'>
+				Currently Cooking: {currentlyCooking.length}
+			</h4>
 			<hr className='border-[1px] border-solid border-[#28282826] my-6 w-[60%] max-w-[350px] self-center' />
 
 			<table className='min-w-full text-center rounded-2xl overflow-hidden'>
