@@ -10,7 +10,7 @@ const Recipes = () => {
 	const [wantToCook, setWantToCook] = useState([])
 	const [currentlyCooking, setCurrentlyCooking] = useState([])
 	useEffect(() => {
-		fetch("../../../public/recipe.json")
+		fetch("recipe.json")
 			.then((res) => res.json())
 			.then((data) => {
 				setSingleRecipe(data)

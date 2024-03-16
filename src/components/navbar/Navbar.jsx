@@ -22,12 +22,12 @@ const Navbar = () => {
 							<a>Search</a>
 						</li>
 						<a className='btn bg-[#150B2B0D] rounded-[50px] justify-start px-8 mt-4'>
-							<img className='' src='../../../public/Images/search.png' alt='search' />
+							<img className='' src='Images/search.png' alt='search' />
 							<p className='text-[#150B2BB3]'>Search</p>
 						</a>
 
 						<div className='w-12 h-12 bg-[#0BE58A] rounded-full flex items-center justify-center mt-4 self-center'>
-							<img src='../../../public/Images/profile.png' alt='' />
+							<img src='Images/profile.png' alt='' />
 						</div>
 					</ul>
 				</div>
@@ -51,12 +51,12 @@ const Navbar = () => {
 			</div>
 			<div className='navbar-end gap-4 hidden lg:flex'>
 				<a className='btn bg-[#150B2B0D] rounded-[50px] w-[260px] justify-start px-8'>
-					<img className='' src='../../../public/Images/search.png' alt='search' />
+					<img className='' src='Images/search.png' alt='search' />
 					<p className='text-[#150B2BB3]'>Search</p>
 				</a>
 
 				<div className='w-12 h-12 bg-[#0BE58A] rounded-full flex items-center justify-center'>
-					<img src='../../../public/Images/profile.png' alt='' />
+					<img src='Images/profile.png' alt='' />
 				</div>
 			</div>
 		</nav>

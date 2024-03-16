@@ -1,6 +1,6 @@
 const Header = () => {
 	return (
-		<div className="h-full lg:h-[600px] rounded-3xl bg-[url('../../../public/Images/banner.png')] bg-no-repeat bg-cover flex flex-col justify-center items-center p-6 mx-4 sm:mx-0">
+		<div className="h-full lg:h-[600px] rounded-3xl bg-[url('Images/banner.png')] bg-no-repeat bg-cover flex flex-col justify-center items-center p-6 mx-4 sm:mx-0">
 			<h2 className='text-white text-xl lg:text-5xl font-bold leading-10 lg:leading-[76px] text-center'>
 				Discover an exceptional cooking <br /> class tailored for you!
 			</h2>
